@@ -1,0 +1,222 @@
+/* Header */
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+}
+
+.header, .footer /* .footer combine with .header for background */ {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    height: 480px;
+}
+
+.subheader {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    margin: 17px;
+    color: #f9faf8;
+    font-size: 24px;
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+
+ul {
+    display: flex;
+    margin: 0;
+    list-style-type: none;
+    gap: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(119, 114, 114);
+    font-size: 18px;
+}
+
+.titleandpic {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    padding: 18px;
+}
+
+.titletext {
+    display: inline-block;
+    width: 350px;
+}
+
+.mainimage {
+    display: flex;
+    width: 500px;
+    height: 250px;
+    margin-top: 20px;
+}
+
+.webpage-title {
+    color: #f9faf8;
+    font-weight: 900;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.paragraph1 {
+    color: #e5e7e8;
+    font-size: 18px;
+}
+
+.button1 button {
+    border: none;
+    border-radius: 10px;
+    font-family: Roboto, sans-serif;
+    background: #3882f6;
+    color: #f9faf8;
+    padding: 8px 28px;
+}
+
+
+/* Body 1 */
+
+.subbody1 {
+    background-color: rgb(182, 175, 175);
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.webpage-title2 {
+    color: #1f2937;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.boxgroup {
+    display: flex;
+    width: 1000px;
+    padding-bottom: 100px;
+}
+
+.primarybox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+}
+
+.primarybox .box {
+    width: 140px;
+    height: 140px;
+    border: 3px solid rgb(69, 69, 201);
+    border-radius: 14px;
+}
+
+.subboxtext {
+    text-align: center;
+}
+
+
+/* Body 2 */
+
+.subbody2 {
+    background-color: #e5e7eb;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quotes {
+    margin: 0px;
+    width: 800px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    color: #1f2937;
+}
+
+.quotesauthor {
+    width: 700px;
+    text-align: right;
+    font-style: bold;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+
+/* Body 3 */
+
+.subbody3 {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 480px;
+    justify-content: center;
+    align-items: center;
+}
+
+.backgroundbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 14px;
+}
+
+.backgroundbox .box {
+    height: 200px;
+    width: 1000px;
+    border: 2px #3882f6;
+    border-radius: 14px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.boxdescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    color: white;
+    gap: -10px;
+}
+
+.header1 {
+    margin-bottom: 0px;
+}
+
+.backgroundbox .box .button1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.backgroundbox .box .button1 button {
+    border: 2px solid white;
+}
+
+/* reuse button code from {.button1 button} from "header" */
+
+
+/* Footer */
+
+.footer {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.copyright {
+    color: rgb(230, 224, 224);
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+    
+
