@@ -14,3 +14,5 @@ Things that I need to improve and add to the code:
 3. the usages of align-self
 4. the usages more of the display
 5. making the website shrink without breaking/overflow the website content
+
+Source of experiment : The Odin Project
