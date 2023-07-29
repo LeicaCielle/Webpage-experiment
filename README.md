@@ -15,9 +15,8 @@ Things that I need to improve and add to the code:
 4. the usages more of the display
 5. making the website shrink without breaking/overflow the website content
 
-<<<<<<< HEAD
 Source of experiment : The Odin Project
 https://www.theodinproject.com/lessons/foundations-landing-page
-=======
-Source of experiment : The Odin Project
->>>>>>> 394c4e625901b0a825a285c0c2e7dc6baf12f7cb
+
+
+
